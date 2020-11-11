@@ -118,6 +118,12 @@ pinigine = pinigine + balandis;
 console.log(pinigine);
 
 
+consoleclear();
+
+
+
+
+
 
 
 
