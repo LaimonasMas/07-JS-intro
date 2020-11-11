@@ -22,7 +22,6 @@ console.log("jau gerai gaunasi");
  * KINTAMIEJI
  **************************/
 /* Iniciavimo budai:
-
     const - default, tai musu pirmasis pasirinkimas
     let - galima, tik jei yra reikalas keisti reiksme
     var - nenaudotinas
