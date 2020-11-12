@@ -141,6 +141,7 @@ for (let i=1; i < zodis1.length; i = i + 2) {
     const raide = zodis1[i];
     rez = rez + raide; 
     console.log(raide);
+    
 }
 console.log(rez);
 
@@ -161,14 +162,14 @@ pvz.: pomidoras (4) -> ia
 pvz.: pomidoras (5) -> d
 */
 
-const zodis = 'pomidoras';
-const step = 2;
-const pirmosRaidesPozicija = step - 1;
-let ats = '';
+// const zodis = 'pomidoras';
+// const step = 2;
+// const pirmosRaidesPozicija = step - 1;
+// let ats = '';
 
-for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
-    const raide = zodis[i];
-    ats = ats + raide;
-}
+// for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
+//     const raide = zodis[i];
+//     ats = ats + raide;
+// }
 
-console.log(ats);
+// console.log(ats);
