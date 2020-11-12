@@ -225,7 +225,7 @@ console.log(suma3);
 
 const l = -70;
 const m = 30;
-suma4 = 0;
+let suma4 = 0;
 
 for (let i=l; i<=m; i++) {
     suma4 = suma4 + i;
