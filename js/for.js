@@ -131,11 +131,23 @@ console.log('---------------------');
 /*
 Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaunasi.
 pvz.: abcdef -> bdf
+pomidoras -> oioa
 */
 
 const zodis1 = 'abcdef';
+let rez = '';
 
 for (let i=1; i < zodis1.length; i = i + 2) {
-    console.log(zodis1[i]);
+    const raide = zodis1[i];
+    rez = rez + raide; 
+    console.log(raide);
 }
+console.log(rez);
+
+// for (let i=1; i < zodis1.length; i = i + 2) {
+    
+//     rez = rez + zodis1[i];
+//     console.log(zodis1[i]);
+// }
+// console.log(rez);
 
