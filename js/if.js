@@ -100,3 +100,11 @@ nenaudotini: ==, !=
      console.log('false');
  }
 
+/*
+Kintamieji
+Salygos funkcijos
+Ciklo funkcijos
+Funkcijos
+Event lisner'iai
+*/
+
