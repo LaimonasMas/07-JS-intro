@@ -112,6 +112,13 @@ allColors = allColors + ', ' + colors[2];
 allColors = allColors + ', ' + colors[1]; 
 allColors = allColors + ', ' + colors[0];
 
+// arba taip:
+// allColors += colors[4]; 
+// allColors += ', ' + colors[3];
+// allColors += ', ' + colors[2]; 
+// allColors += ', ' + colors[1]; 
+// allColors += ', ' + colors[0];
+
 console.log(allColors);
 
 const colorsReverse = colors[4] + ', ' + colors[3] + ', ' + colors[2] + ', ' + colors[1] + ', ' + colors[0];
@@ -122,6 +129,9 @@ console.log(streetNamesReverse);
 
 const allTogetherReverse = streetNamesReverse + ', ' + colorsReverse + ', ' + friendsReverse;
 console.log(allTogetherReverse);
+
+
+
 
 
 
