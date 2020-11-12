@@ -151,3 +151,24 @@ console.log(rez);
 // }
 // console.log(rez);
 
+
+/*
+Duodamas zodis ir is jo reikia isrinkti kas antra raide ir isspausdinti kas gaunasi.
+pvz.: abcdef -> bdf
+pvz.: pomidoras (2) -> oioa
+pvz.: pomidoras (3) -> mos
+pvz.: pomidoras (4) -> ia
+pvz.: pomidoras (5) -> d
+*/
+
+const zodis = 'pomidoras';
+const step = 2;
+const pirmosRaidesPozicija = step - 1;
+let ats = '';
+
+for (let i = pirmosRaidesPozicija; i < zodis.length; i = i + step) {
+    const raide = zodis[i];
+    ats = ats + raide;
+}
+
+console.log(ats);
