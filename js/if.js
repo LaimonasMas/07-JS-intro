@@ -6,7 +6,7 @@
  /*
 Palyginimo salyga (if)
 galimi operatoriai: >, <, >=, <=, ==, !=, ===, !==
-naudotini: >, <, >=, <=, ===, !==
+NAUDOTINI: >, <, >=, <=, ===, !==
 nenaudotini: ==, !=
 "=" reiksmes priskyrimo oreratorius
 "==" palyginimas, ar yra lygu
