@@ -70,11 +70,30 @@ console.log(string);
 // a.	1-2+3-4+5
 // b.	Rezultatą išvesti į console
 
-const numbersValue = numbers[0] - numbers[1] + numbers[2] - numbers[3] + numbers[4];
-console.log(numbersValue);
+// const numbersValue = numbers[0] - numbers[1] + numbers[2] - numbers[3] + numbers[4];
+// console.log(numbersValue);
+// alternatyva zemiau:
 
-const pricesValue = prices[0] - prices[1] + prices[2] - prices[3] + prices[4];
-console.log(pricesValue);
+let numbersMath = 0;
+numbersMath = numbersMath + numbers[0];
+numbersMath = numbersMath - numbers[1];
+numbersMath = numbersMath + numbers[2];
+numbersMath = numbersMath - numbers[3];
+numbersMath = numbersMath + numbers[4];
+console.log(numbersMath);
+
+// const pricesValue = prices[0] - prices[1] + prices[2] - prices[3] + prices[4];
+// console.log(pricesValue);
+// alternatyva zemiau:
+
+let pricesMath = 0;
+pricesMath = pricesMath + prices[0];
+pricesMath = pricesMath - prices[1];
+pricesMath = pricesMath + prices[2];
+pricesMath = pricesMath - prices[3];
+pricesMath = pricesMath + prices[4];
+console.log(pricesMath);
+
 
 const carsValue = cars[0] - cars[1] + cars[2] - cars[3] + cars[4];
 console.log(carsValue);
@@ -83,6 +102,17 @@ console.log(carsValue);
 
 const friendsReverse = friends[4] + ', ' + friends[3] + ', ' + friends[2] + ', ' + friends[1] + ', ' + friends[0];
 console.log(friendsReverse);
+// alternatyva zemiau:
+
+let allColors = '';
+
+allColors = allColors + colors[4]; 
+allColors = allColors + ', ' + colors[3];
+allColors = allColors + ', ' + colors[2]; 
+allColors = allColors + ', ' + colors[1]; 
+allColors = allColors + ', ' + colors[0];
+
+console.log(allColors);
 
 const colorsReverse = colors[4] + ', ' + colors[3] + ', ' + colors[2] + ', ' + colors[1] + ', ' + colors[0];
 console.log(colorsReverse);
