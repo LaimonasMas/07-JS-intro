@@ -89,3 +89,14 @@ nenaudotini: ==, !=
  } else {
      console.log(false)
  }
+
+ const a = 2;
+ const b = 2;
+ const c = 2;
+
+ if (a === b) {
+     console.log('true');
+ } else {
+     console.log('false');
+ }
+
