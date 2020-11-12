@@ -1,6 +1,6 @@
-/************************************
- * KINTAMŲJŲ INICIJAVIMAS
- * *********************************/
+
+ /* KINTAMŲJŲ INICIJAVIMAS*/
+
 
  // 1.	Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
  //      a.	Po kiekvieno jų inicijavimo, išvesti į console
@@ -50,9 +50,9 @@ console.log(colors);
 const streetNames = ['Dziaugsmo', 'Upes', 'Ukmerges', 'Zadeikos', 'Ateities'];
 console.log(streetNames);
 
-/************************************
- * VEIKSMAI SU KINTAMAISIAIS
- * *********************************/
+
+ /*VEIKSMAI SU KINTAMAISIAIS*/
+
 
 // 1.	Susumuoti visus skaičiaus tipo kintamuosius
 // a.	Rezultatą išvesti į console
