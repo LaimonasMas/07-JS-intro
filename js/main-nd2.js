@@ -247,4 +247,136 @@ console.log(atsakymas);
 // 3.	Suskaičiuoti, kiek nurodytame intervale yra skaičių, kurie dalijasi be liekanos iš 3, 5 ir 7 atskirai:
 // a.	0 - 11
 
+const trys3 = 3;
+const penki5 = 5;
+const septyni7 = 7;
+const pradziaA = 0;
+const pabaigaA = 11;
 
+
+// i:
+
+let atsakymas1 = 0; 
+
+for (let i=pradziaA; i<=pabaigaA; i++) {
+    if (i % trys3 === 0) {
+        atsakymas1 = atsakymas1 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaA + ` ir ` + pabaigaA + 
+ `, besidalijančių be liekanos iš ` + trys3 + ` yra ` + atsakymas1 + ` vienetai.`);
+
+// ii:
+
+atsakymas2 = 0;
+
+for (let i=pradziaA; i<=pabaigaA; i++) {
+    if (i % penki5 === 0) {
+        atsakymas2 = atsakymas2 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaA + ` ir ` + pabaigaA + 
+ `, besidalijančių be liekanos iš ` + penki5 + ` yra ` + atsakymas2 + ` vienetai.`);
+
+//  iii:
+
+let atsakymas3 = 0; 
+
+for (let i=pradziaA; i<=pabaigaA; i++) {
+    if (i % septyni7 === 0) {
+        atsakymas3 = atsakymas3 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaA + ` ir ` + pabaigaA + 
+ `, besidalijančių be liekanos iš ` + septyni7 + ` yra ` + atsakymas3 + ` vienetai.`);
+
+//  b.	8 - 31
+
+const pradziaB = 8;
+const pabaigaB = 31;
+
+// i:
+
+let atsakymasB1 = 0;
+
+for (let i=pradziaB; i<=pabaigaB; i++) {
+    if (i % trys3 === 0) {
+        atsakymasB1 = atsakymasB1 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaB + ` ir ` + pabaigaB + 
+ `, besidalijančių be liekanos iš ` + trys3 + ` yra ` + atsakymasB1 + ` vienetai.`);
+
+//  ii:
+
+let atsakymasB2 = 0;
+
+for (let i=pradziaB; i<=pabaigaB; i++) {
+    if (i % penki5 === 0) {
+        atsakymasB2 = atsakymasB2 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaB + ` ir ` + pabaigaB + 
+ `, besidalijančių be liekanos iš ` + penki5 + ` yra ` + atsakymasB2 + ` vienetai.`);
+
+//  iii:
+
+let atsakymasB3 = 0;
+
+for (let i=pradziaB; i<=pabaigaB; i++) {
+    if (i % septyni7 === 0) {
+        atsakymasB3 = atsakymasB3 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaB + ` ir ` + pabaigaB + 
+ `, besidalijančių be liekanos iš ` + septyni7 + ` yra ` + atsakymasB3 + ` vienetai.`);
+
+//  c.	-18 - 18
+
+const pradziaC = -18;
+const pabaigaC = 18;
+
+// i:
+
+let atsakymasC1 = 0;
+
+for (let i=pradziaC; i<=pabaigaC; i++) {
+    if (i % trys3 === 0) {
+        atsakymasC1 = atsakymasC1 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaC + ` ir ` + pabaigaC + 
+ `, besidalijančių be liekanos iš ` + trys3 + ` yra ` + atsakymasC1 + ` vienetai.`);
+ 
+//  ii:
+
+let atsakymasC2 = 0;
+
+for (let i=pradziaC; i<=pabaigaC; i++) {
+    if (i % penki5 === 0) {
+        atsakymasC2 = atsakymasC2 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaC + ` ir ` + pabaigaC + 
+ `, besidalijančių be liekanos iš ` + penki5 + ` yra ` + atsakymasC2 + ` vienetai.`);
+
+//  iii:
+
+let atsakymasC3 = 0;
+
+for (let i=pradziaC; i<=pabaigaC; i++) {
+    if (i % septyni7 === 0) {
+        atsakymasC3 = atsakymasC3 + 1;
+    }
+}
+
+console.log(`Skaičių intervale tarp ` + pradziaC + ` ir ` + pabaigaC + 
+ `, besidalijančių be liekanos iš ` + septyni7 + ` yra ` + atsakymasC3 + ` vienetai.`);
