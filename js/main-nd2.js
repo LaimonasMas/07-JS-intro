@@ -391,9 +391,8 @@ console.log(`Skaičių intervale tarp ` + pradziaC + ` ir ` + pabaigaC +
 
 // a.	nepriima jokių kintamųjų
 
-// i.	console.log( tusciaFunkcija() );
+var array = [3, 4, 6, 9, 12];
+console.log(array);
 
-function tusciaFunkcija () {
-    console.log('tusciaFunkcija()')
-  }
-  tusciaFunkcija ();
+
+
