@@ -380,3 +380,20 @@ for (let i=pradziaC; i<=pabaigaC; i++) {
 
 console.log(`Skaičių intervale tarp ` + pradziaC + ` ir ` + pabaigaC + 
  `, besidalijančių be liekanos iš ` + septyni7 + ` yra ` + atsakymasC3 + ` vienetai.`);
+
+ /*****************************
+  * Funkcijos
+  * ***************************/
+
+// Parašyti funkcijas, kurios atitinka pateiktus reikalavimus, jei įvykdo reikiamus testus
+
+// 1.	Funkcija pavadinimu “tusciaFunkcija”:
+
+// a.	nepriima jokių kintamųjų
+
+// i.	console.log( tusciaFunkcija() );
+
+function tusciaFunkcija () {
+    console.log('tusciaFunkcija()')
+  }
+  tusciaFunkcija ();
