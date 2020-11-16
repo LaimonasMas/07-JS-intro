@@ -5,10 +5,10 @@ const text = 'abcdef';
 let back = '';
 
 // pvz:1
-// for (let i=0;  i < text.length; i++){
-//     const letter = text[i];
-//     back = letter + back;
-// }
+for (let i=0;  i < text.length; i++){
+    const letter = text[i];
+    back = letter + back;
+}
 
 
 // pvz2
