@@ -58,4 +58,13 @@ console.log( bigNum( [ 1, 2, 3, 'labas' ] ), '->', 3);
 console.log( bigNum( [ 1, 2, 3, 'labas', 5, 9, 12 ] ), '->', 12);
 console.log( bigNum( [ 'labas', 1, 2, 3, 5 ] ), '->', 5);
 console.log( bigNum( [ NaN, 78, 14, 0, 18 ] ) );
-console.log( bigNum( [ NaN, true, false, []]));
+console.log( bigNum( [ NaN, null, false, []]));
+
+function sum(a, b) { 
+    return a + b 
+}
+
+console.log(bigNum(sum));
+console.log(bigNum([sum]));
+console.log(bigNum({}));
+console.log(bigNum([{}, {}, {}]));
