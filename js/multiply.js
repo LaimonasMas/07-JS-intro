@@ -17,6 +17,7 @@ function daugyba(a, b) {
         console.error('ERROR: pirmoji reiksme ne skaiciaus tipo');
         return false;
     }
+    // if ('' + b === 'NaN') {
     if (isNaN(a)) {
         console.error('ERROR: pirmoji reiksme ne normalus skaicius');
         return false;
