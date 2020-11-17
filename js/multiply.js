@@ -26,6 +26,11 @@ function daugyba(a, b) {
     if (typeof b !== 'number') {
         console.error('ERROR: antroji reiksme ne skaiciaus tipo');
         return false;
+        
+    }
+    if (typeof b === 'Infinity') {
+        console.error('ERROR: antroji reiksme ne skaiciaus tipo');
+        return false;
     }
     // if ('' + b === 'NaN') {
         if (isNaN(b)) {
