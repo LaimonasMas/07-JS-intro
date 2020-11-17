@@ -94,9 +94,9 @@ console.log( pickLetters( 'abcdefghijk', 1.5 ) );
 console.log( pickLetters( 'abc', 3 ) );
 console.log( pickLetters( 'abcdefg', 2 ), '->', 'bdf' );
 console.log( pickLetters( 'abcdefghijkl', 3 ), '->', 'cfil' );
-// console.log( pickLetters( 'abc', -3 ) ); 
-// console.log( pickLetters( 'abcdefg', -2 ), '->', 'bdf' ); 
-// console.log( pickLetters( 'abcdefghijkl', -3 ), '->', 'cfil' ); 
+console.log( pickLetters( 'abc', -3 ) ); 
+console.log( pickLetters( 'abcdefg', -2 ), '->', 'bdf' ); 
+console.log( pickLetters( 'abcdefghijkl', -3 ), '->', 'cfil' ); 
 
 console.log( pickLetters( '', 3 ) );
 
