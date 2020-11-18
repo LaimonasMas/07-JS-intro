@@ -9,12 +9,13 @@ function kvadratu(num) {
     return rez;
 }
 
-const duKv = kvadratu(2) // rezultata issisaugai kaip const. Is kur iskvieti ten ir grizta
+const duKv = kvadratu(2);
+const trysKv = kvadratu(3);
 
-console.log( duKv );
-console.log( kvadratu(3) );
-console.log( kvadratu(-4) );
-console.log( kvadratu(-5) );
+console.log(duKv);
+console.log(trysKv);
+console.log(kvadratu(-4));
+console.log(kvadratu(-5));
 
 
 function laipsnis(base, power) {

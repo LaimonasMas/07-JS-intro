@@ -91,7 +91,7 @@ console.log("jau gerai gaunasi");
  const sakinys3 = heroName + ' ' + heroLastname + ' ' + '(' + amzius1 + ')';
  console.log(sakinys3);
 
- console.clear();
+
 
  let pinigine = 7;
  const sausis = 100;
@@ -99,7 +99,7 @@ console.log("jau gerai gaunasi");
  const kovas = 70;
  const balandis = -200;
 
-console.clear;
+
 
  // 107
  // 307
@@ -118,7 +118,7 @@ pinigine = pinigine + balandis;
 console.log(pinigine);
 
 
-consoleclear();
+
 
 
 

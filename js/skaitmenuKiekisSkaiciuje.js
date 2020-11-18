@@ -50,40 +50,39 @@ function numLength(num) {
   if ('' + num === 'NaN') {
   return `rezultatas: "Pateikta netinkamo tipo reiksme"`;
   } 
+  if (num === 'Infinity') {
+    return 'Pateikta netinkamo tipo reikšmė.';
+  }
   //logic
 const textNum = '' + num;
 let size = textNum.length;
 
 if (num < 0) {
-  console.log('Radau minusa');
-  size--;
+    size--;
 }
 
 if (num % 1 !== 0) {
   size--;
 }
-if ('' + num === 'Infinity') {
-  return `rezultatas: "begalybe"`;
-}
-
+// return
   return size;
 }
 
 
 
 
-// console.log( skaitmenuKiekisSkaiciuje( 5 ) );
-// console.log( skaitmenuKiekisSkaiciuje( 781 ) );
-// console.log( skaitmenuKiekisSkaiciuje( 37060123456 ) );
-// console.log( skaitmenuKiekisSkaiciuje( true ) );
-// console.log( skaitmenuKiekisSkaiciuje( NaN ) );
-// console.log( skaitmenuKiekisSkaiciuje( 'asd' ) );
+console.log( numLength( 5 ) );
+console.log( numLength( 781 ) );
+console.log( numLength( 37060123456 ) );
+console.log( numLength( true ) );
+console.log( numLength( NaN ) );
+console.log( numLength( 'asd' ) );
 
-console.log( skaitmenuKiekisSkaiciuje( -5 ) );
-console.log( skaitmenuKiekisSkaiciuje( 2.2 ) );
-console.log( skaitmenuKiekisSkaiciuje( 3.14528 ) );
-console.log( skaitmenuKiekisSkaiciuje( -3.14528 ) );
-console.log( skaitmenuKiekisSkaiciuje( 3, 14528 ) );
+console.log( numLength( -5 ) );
+console.log( numLength( 2.2 ) );
+console.log( numLength( 3.14528 ) );
+console.log( numLength( -3.14528 ) );
+console.log( numLength( 3, 14528 ) );
 
 console.log('------------');
 console.log(numLength(Infinity));

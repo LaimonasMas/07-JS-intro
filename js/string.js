@@ -43,7 +43,7 @@ const html2 = `<div>
     <a href="#">Don't click me</a>
 </div>`;
 console.log(html2);
-console.clear();
+
 
 // Joniukas ir Gretute ejo i miska.
 const berniukas = 'Joniukas';

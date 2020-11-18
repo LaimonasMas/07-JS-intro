@@ -40,7 +40,8 @@ function pickLetters(text, step) {
     // }
 
     const size = text.length;
-    if (step > text.length) {
+
+    if (step > size) {
         return 'ERROR: zingsnis yra per didelis lyginant su teksto ilgiu.'
     }
     if (step === 0) {
@@ -61,7 +62,7 @@ function pickLetters(text, step) {
     // pagrindinis variantas:
     if (step > 0) {
     const firstLetterPosition = step - 1;
-    for (let i=firstLetterPosition; i<size;  i+=step) {
+    for (let i = firstLetterPosition; i < size;  i += step) {
                     rez += text[i];
             
         }

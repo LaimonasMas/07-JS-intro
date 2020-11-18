@@ -39,6 +39,7 @@ function pazymiuVidurkis(list) {
         suma = suma + pazymys;
 }
 const vidurkis = suma / kiekis;
+
         if (kiekis === 0) {
             console.log('Neturi pazymiu...' );
         } else {

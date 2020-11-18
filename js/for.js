@@ -41,16 +41,21 @@ for (let i=0; i < 5; i++) {
  * Jei kas menesi zmogus uzdirba 5000, tai kiek jis tures pajamu per metus?
  * *************/
  
-
+console.log('------------------');
 const alga = 5000;
 const menesiu = 12;
 let pajamos = 0;
 
 for (let i = 1; i <= menesiu; i++) {
+    pajamos = pajamos + alga;
+    console.log(`${i}) ${pajamos} laaaaaabai daug pinigu.`);
+}
+
+for (let i = 1; i <= menesiu; i++) {
     console.log(`${i}) ${i*alga} pinigu.`);
 }
 
-for (let i = 1; i <= menesiu; i = i +2 ) {
+for (let i = 1; i <= menesiu; i = i + 2 ) {
     console.log(`${i}) ${i*alga} pinigu.`);
 }
 
@@ -173,3 +178,4 @@ pvz.: pomidoras (5) -> d
 // }
 
 // console.log(ats);
+
