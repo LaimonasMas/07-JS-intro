@@ -37,7 +37,9 @@ function pazymiuVidurkis(list) {
     for (let i=0; i < kiekis; i++){
         const pazymys = list[i];
         suma = suma + pazymys;
+        
 }
+
 const vidurkis = suma / kiekis;
 
         if (kiekis === 0) {
