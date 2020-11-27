@@ -44,6 +44,10 @@ function bigNum(list) {
     return biggestNumber;
 }
 
+
+
+console.log('---------------------');
+
 // demo funkcija, skirta testams sudaryti
 function sum(a, b) {
     return a + b;
