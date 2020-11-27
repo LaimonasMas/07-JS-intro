@@ -7,6 +7,7 @@ Note: anything else is the default case: if the input to the function is not any
 Make sure you cover the cases where certain words do not show up with correct capitalization. For example, getDrinkByProfession("pOLitiCIaN") should still return "Your tax dollars".
 */
 
+
 function getDrinkByProfession(param){
     const word = param;
     let ats = word.toLowerCase();
