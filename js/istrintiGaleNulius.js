@@ -17,4 +17,15 @@ function noBoringZeros(n) {
       let newNumber1 = newNumber.split("").reverse().join("");
       let newNumber2 = parseInt(newNumber1, 10)
       return newNumber2;
-}
+    }
+
+    //greiti budai
+
+    // function noBoringZeros(n) {
+    //     while(n%10==0 && n!=0){n/=10;}
+    //     return n;
+    //   }
+
+    // function noBoringZeros(n) {
+    // return +`${n}`.replace(/0*$/, "");
+    // }
